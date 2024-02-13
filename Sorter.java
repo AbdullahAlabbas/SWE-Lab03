@@ -27,4 +27,8 @@ public class Sorter {
         
         System.out.println("After sorting: " + Arrays.toString(arr));
     }
+    
+    public static void sort(int[] arr) {
+        insertionSort(arr);
+    }
 }
